@@ -1,0 +1,202 @@
+﻿@model IEnumerable<SiparisTakip.Entity.Models.Stok>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.BarkodNo)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.StokKodu)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.StokAdi)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.AlisFiyati)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.AlisKdvDurumID)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.KdvOrani)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SatisFiyati)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Kdv)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ToplamFiyati)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SatisKdvDurumID)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Aktif)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.KayitZamani)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.MACCAdress)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Notlar)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ResimUrl)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.HizliMenuAktif)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SatisFiyati2)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SatisKdvDurumID2)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SatisFiyati3)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SatisKdvDurumID3)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.OzelKodu1)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.OzelKodu2)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SatisFiyati4)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SatisKdvDurumID4)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SatisFiyati5)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SatisKdvDurumID5)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.StokAdi2)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.StokKisaAciklama)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.StokAnahtarKelime)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.BarkodNo)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.StokKodu)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.StokAdi)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.AlisFiyati)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.AlisKdvDurumID)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.KdvOrani)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.SatisFiyati)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Kdv)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ToplamFiyati)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.SatisKdvDurumID)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Aktif)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.KayitZamani)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.MACCAdress)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Notlar)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ResimUrl)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.HizliMenuAktif)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.SatisFiyati2)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.SatisKdvDurumID2)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.SatisFiyati3)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.SatisKdvDurumID3)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.OzelKodu1)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.OzelKodu2)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.SatisFiyati4)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.SatisKdvDurumID4)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.SatisFiyati5)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.SatisKdvDurumID5)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.StokAdi2)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.StokKisaAciklama)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.StokAnahtarKelime)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+            @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+            @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+        </td>
+    </tr>
+}
+
+</table>

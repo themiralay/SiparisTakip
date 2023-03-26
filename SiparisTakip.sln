@@ -1,0 +1,112 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33122.133
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SiparisTakip.Dal", "SiparisTakip.Dal\SiparisTakip.Dal.csproj", "{1BE1BF19-B0F2-477A-9FEC-FF14EE929D75}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SiparisTakip.Bll", "SiparisTakip.Bll\SiparisTakip.Bll.csproj", "{F10B5533-C801-4422-9129-20BC2C7B43CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SiparisTakip.AspNetMvcUI", "SiparisTakip.AspNetMvcUI\SiparisTakip.AspNetMvcUI.csproj", "{2653CBEF-5708-47AA-8038-1E57A8EA6AD5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SiparisTakip.AspNetMvcUI.Tests", "SiparisTakip.AspNetMvcUI.Tests\SiparisTakip.AspNetMvcUI.Tests.csproj", "{024414EE-D048-47D9-839A-2AA91808913A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SiparisTakip.Entity", "SiparisTakip.Entity\SiparisTakip.Entity.csproj", "{ADCB4CA7-A3A6-4A55-ABEA-39B0C9DC56DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SiparisTakip.Interfaces", "SiparisTakip.Interfaces\SiparisTakip.Interfaces.csproj", "{B7DC3D65-626A-43D4-88B1-6018B1A87213}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SiparisTakip.Cache", "SiparisTakip.Cache\SiparisTakip.Cache.csproj", "{0CD9E760-5136-4708-98C8-B06EAEE025EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SiparisTakip.WcfServiceLibrary", "SiparisTakip.WcfServiceLibrary\SiparisTakip.WcfServiceLibrary.csproj", "{2FA9AAEE-3A1D-4B11-85E4-0DA76425CC32}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "SiparisTakip.WcfIISHost", "SiparisTakip.WcfIISHost\", "{308EF14B-CDE3-4E1A-BDE8-DBD05986635C}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8.1"
+		ProjectReferences = "{2fa9aaee-3a1d-4b11-85e4-0da76425cc32}|SiparisTakip.WcfServiceLibrary.dll;{F10B5533-C801-4422-9129-20BC2C7B43CE}|SiparisTakip.Bll.dll;{1BE1BF19-B0F2-477A-9FEC-FF14EE929D75}|SiparisTakip.Dal.dll;{ADCB4CA7-A3A6-4A55-ABEA-39B0C9DC56DC}|SiparisTakip.Entity.dll;{B7DC3D65-626A-43D4-88B1-6018B1A87213}|SiparisTakip.Interfaces.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_5067"
+		Debug.AspNetCompiler.PhysicalPath = "SiparisTakip.WcfIISHost\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_5067\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_5067"
+		Release.AspNetCompiler.PhysicalPath = "SiparisTakip.WcfIISHost\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_5067\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "5067"
+		SlnRelativePath = "SiparisTakip.WcfIISHost\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SiparisTakip.AspNetMvcWebApi", "SiparisTakip.AspNetMvcWebApi\SiparisTakip.AspNetMvcWebApi.csproj", "{BBD13A70-38CE-4F4E-9219-389175099CC1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SiparisTakip.AspNetMvcWebApi.Tests", "SiparisTakip.AspNetMvcWebApi.Tests\SiparisTakip.AspNetMvcWebApi.Tests.csproj", "{C069AD8A-58CC-4D31-A6CB-1242261DA95C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SiparisTakip.WinFormsUI", "SiparisTakip.WinFormsUI\SiparisTakip.WinFormsUI.csproj", "{3BE18EEA-36F3-4CF0-BE8C-0AA909EC7083}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1BE1BF19-B0F2-477A-9FEC-FF14EE929D75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BE1BF19-B0F2-477A-9FEC-FF14EE929D75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BE1BF19-B0F2-477A-9FEC-FF14EE929D75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BE1BF19-B0F2-477A-9FEC-FF14EE929D75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F10B5533-C801-4422-9129-20BC2C7B43CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F10B5533-C801-4422-9129-20BC2C7B43CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F10B5533-C801-4422-9129-20BC2C7B43CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F10B5533-C801-4422-9129-20BC2C7B43CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2653CBEF-5708-47AA-8038-1E57A8EA6AD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2653CBEF-5708-47AA-8038-1E57A8EA6AD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2653CBEF-5708-47AA-8038-1E57A8EA6AD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2653CBEF-5708-47AA-8038-1E57A8EA6AD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{024414EE-D048-47D9-839A-2AA91808913A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{024414EE-D048-47D9-839A-2AA91808913A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{024414EE-D048-47D9-839A-2AA91808913A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{024414EE-D048-47D9-839A-2AA91808913A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADCB4CA7-A3A6-4A55-ABEA-39B0C9DC56DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADCB4CA7-A3A6-4A55-ABEA-39B0C9DC56DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADCB4CA7-A3A6-4A55-ABEA-39B0C9DC56DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADCB4CA7-A3A6-4A55-ABEA-39B0C9DC56DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7DC3D65-626A-43D4-88B1-6018B1A87213}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7DC3D65-626A-43D4-88B1-6018B1A87213}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7DC3D65-626A-43D4-88B1-6018B1A87213}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7DC3D65-626A-43D4-88B1-6018B1A87213}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CD9E760-5136-4708-98C8-B06EAEE025EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CD9E760-5136-4708-98C8-B06EAEE025EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CD9E760-5136-4708-98C8-B06EAEE025EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CD9E760-5136-4708-98C8-B06EAEE025EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FA9AAEE-3A1D-4B11-85E4-0DA76425CC32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FA9AAEE-3A1D-4B11-85E4-0DA76425CC32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FA9AAEE-3A1D-4B11-85E4-0DA76425CC32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FA9AAEE-3A1D-4B11-85E4-0DA76425CC32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{308EF14B-CDE3-4E1A-BDE8-DBD05986635C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{308EF14B-CDE3-4E1A-BDE8-DBD05986635C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{308EF14B-CDE3-4E1A-BDE8-DBD05986635C}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{308EF14B-CDE3-4E1A-BDE8-DBD05986635C}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{BBD13A70-38CE-4F4E-9219-389175099CC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBD13A70-38CE-4F4E-9219-389175099CC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBD13A70-38CE-4F4E-9219-389175099CC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBD13A70-38CE-4F4E-9219-389175099CC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C069AD8A-58CC-4D31-A6CB-1242261DA95C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C069AD8A-58CC-4D31-A6CB-1242261DA95C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C069AD8A-58CC-4D31-A6CB-1242261DA95C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C069AD8A-58CC-4D31-A6CB-1242261DA95C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BE18EEA-36F3-4CF0-BE8C-0AA909EC7083}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BE18EEA-36F3-4CF0-BE8C-0AA909EC7083}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BE18EEA-36F3-4CF0-BE8C-0AA909EC7083}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BE18EEA-36F3-4CF0-BE8C-0AA909EC7083}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {79810B51-DA8A-4BEA-805A-8BB6ADEC9C86}
+	EndGlobalSection
+EndGlobal

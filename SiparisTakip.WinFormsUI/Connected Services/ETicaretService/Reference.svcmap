@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="900e5ef3-cca2-491e-b263-08a718a3ce35" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:6767/StokService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="StokService.disco" MetadataType="Disco" ID="41283c12-0fec-45b7-8915-8722149b641c" SourceId="1" SourceUrl="http://localhost:6767/StokService.svc?disco" />
+    <MetadataFile FileName="StokService.xsd" MetadataType="Schema" ID="2d6d212d-e927-481b-925d-dad51b531f2f" SourceId="1" SourceUrl="http://localhost:6767/StokService.svc?xsd=xsd2" />
+    <MetadataFile FileName="StokService1.xsd" MetadataType="Schema" ID="879e4293-74fe-46ce-819b-0a11f2fc972a" SourceId="1" SourceUrl="http://localhost:6767/StokService.svc?xsd=xsd1" />
+    <MetadataFile FileName="StokService.wsdl" MetadataType="Wsdl" ID="4722380e-3098-41bf-b992-3ffc46a0b4ff" SourceId="1" SourceUrl="http://localhost:6767/StokService.svc?wsdl" />
+    <MetadataFile FileName="StokService2.xsd" MetadataType="Schema" ID="fdcd268b-8ea2-46e9-9bcb-ee007ed0d6c6" SourceId="1" SourceUrl="http://localhost:6767/StokService.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
